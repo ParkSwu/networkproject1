@@ -25,7 +25,7 @@ public class RESTApiController {
     // 문자 배열도 리턴할 수 있습니다.
     @RequestMapping(value = "/foods", method = RequestMethod.GET)
     public List<String> foods(){
-        List<String> foodList = List.of("탕수육", "똠얌꿍", "돈카츠");
+        List<String> foodList = List.of("탕수육", "똠얌꿍");
         return foodList;
     }
 
